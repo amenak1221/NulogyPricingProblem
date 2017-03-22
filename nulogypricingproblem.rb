@@ -1,12 +1,21 @@
 
   def order_product(base, per_person, products)
     input = @input #initial price
+    output = @output #final price
     base = 0.05 #flat mark up
     per_person = 0.012 # per person for the job
-  end
 
-
-
+    products.each do |product|  #if statement for each product * by the percentages.
+      @output =
+      if :pharmaceuticals
+        @input*0.075.percent
+      elsif :food
+        @input*0.13.percent
+      elsif :electonics
+        @input*0.02.percent
+      else :other
+        0
+  
 
 
 
