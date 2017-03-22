@@ -1,33 +1,14 @@
-class Pricing
-  attr_reader :markups :inputs :outputs
 
-  def initialize (markups, earnings, experience)
-    @markups = markups
-    @inputs = inputs
-    @outputs = outputs
+  def order_product(base, per_person, products)
+    input = @input #initial price
+    base = 0.05 #flat mark up
+    per_person = 0.012 # per person for the job
   end
 
-  def markups
-    base = 0.05
-    per_person = 0.012
-    pharmaceuticals = 0.075
-    food = 1.13
-    electronics = 0.02
-    other = 0.0
-  end
-
-  def input  
-  end
-
-  def output
-
-  end
-end
 
 
 
-# .
-# 1299*(1.05)*(1+3*0.012+0.13)
+
 
 
 
