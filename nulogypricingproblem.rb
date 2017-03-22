@@ -3,19 +3,31 @@ class Pricing
 
   def initialize (markups, earnings, experience)
     @markups = markups
-    @earnings = earnings
-    @experiene = experience
+    @inputs = inputs
+    @outputs = outputs
   end
 
-  def input
+  def markups
+    base = 0.05
+    per_person = 0.012
+    pharmaceuticals = 0.075
+    food = 1.13
+    electronics = 0.02
+    other = 0.0
+  end
+
+  def input  
   end
 
   def output
+
   end
 end
 
 
-.
+
+# .
+# 1299*(1.05)*(1+3*0.012+0.13)
 
 
 
