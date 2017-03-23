@@ -1,0 +1,9 @@
+I found the hardest part of  this submission was writing the function.
+I initially used pseudo code to map out the problem and then proceeded to make
+a table of inputs, outputs and mark ups.
+I also struggled a bit with following through with the
+order of operations while writing my function.
+I used a loop that hooked on to an if statement based on the product
+that was inputed which returned the value that customers had to pay.
+I really enjoy solving puzzles like this because it allows me to challenge
+myself in a way that I've never had to before in previous roles.
