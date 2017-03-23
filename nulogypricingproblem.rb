@@ -15,8 +15,22 @@
         @input*0.02.percent
       else :other
         0
-  
+      end
+      @input*base*(1 + (per_person*0.012) + products)
+    end
+    return @output
+  end #immediately [end] it
 
+
+  electronic_product_price = order_product(@input*base*(1 + per_person*0.012) + :electronic)
+  food_product_price = order_product(@input*base*(1 + per_person*0.012) + :food)
+  pharmaceuticals_product_price = order_product(@input*base*(1 + per_person*0.012) + :pharmaceuticals)
+
+
+
+# the function I'm using 
+#   Input*1.05*(1 + (#employees×.012) +. 075 +.13 +.02)
+#
 
 
 
